@@ -1,0 +1,25 @@
+# Define the precipitation data for each month
+precipitation_data = {
+    "January": 3.5,
+    "February": 2.8,
+    "March": 3.2,
+    "April": 4.1,
+    "May": 5.0,
+    "June": 4.6,
+    "July": 3.9,
+    "August": 3.7,
+    "September": 4.2,
+    "October": 4.5,
+    "November": 4.0,
+    "December": 3.8
+}
+
+# Calculate the total precipitation for the year
+total_precipitation = sum(precipitation_data.values())
+
+# Calculate the average precipitation per month
+average_precipitation_per_month = total_precipitation / 12
+
+# Print the results
+print("Total precipitation for the year:", total_precipitation, "inches")
+print("Average precipitation per month:", average_precipitation_per_month, "inches")
